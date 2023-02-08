@@ -1,0 +1,41 @@
+
+@import url(reset.css);
+div {
+	color: darkblue;
+}
+.tittle {
+	color:fuchsia
+}
+#list {
+	color: deeppink;
+}
+div.content{
+	color: crimson;
+}
+.footer p {
+	color: violet;
+}
+.main,
+.description {
+	color: aqua;
+}
+.description h2{
+	color: coral;
+}
+ul.list {
+	color: darkgreen;
+}
+.sub > p {
+	color: darkviolet;
+} 
+
+.footer .thanks {
+	color: mediumvioletred;
+}
+.main,
+.specification {
+	color: burlywood;
+}
+.text p {
+color: crimson;
+}
