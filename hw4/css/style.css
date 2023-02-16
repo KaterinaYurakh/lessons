@@ -1,0 +1,58 @@
+@import url(reset.css);
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap);
+
+@font-face {
+	font-family: 'CircularStd';
+	src: url('../fonts/CircularStd-Bold.woff2') format('woff2'),
+		url('../fonts/CircularStd-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'CircularStd Book';
+	src: url('../fonts/CircularStd-Book.woff2') format('woff2'),
+		url('../fonts/CircularStd-Book.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Playfair Display";
+	text-align: justify;
+}
+.header h1 {
+	font-weight: 600;
+	text-align: center;
+	text-decoration: underline;
+	
+}
+.header p {
+	font-weight: 500;
+	white-space: 50px;
+	
+}
+.normal h2 {
+	text-align: center;
+}
+.normal p {
+	font-family: 'CircularStd';
+	font-weight: 800;
+	font-style: oblique;
+	letter-spacing: 5px;
+}
+.cult h2 {
+	text-align: center;
+}
+.cult p {
+	text-indent: 20px;
+}
+.footer {
+	font-family: 'CircularStd';
+	font-weight: 900;
+	font-style: italic;
+	text-transform: capitalize;
+}
