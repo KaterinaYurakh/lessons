@@ -1,0 +1,292 @@
+@import url(reset.css);
+body {
+	background-color: burlywood;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	
+}
+
+[class*="__container"] {
+max-width: 1200px;
+padding: 0 15px;
+margin: 0 auto;
+}
+.block-1 {
+	background-color: green;
+	padding: 30px;
+	text-align: center;
+	color: wheat;
+	transform: translate(30px,20px);
+	margin-bottom: 30px;
+}
+.block-2 {
+	background-color: darkgreen;
+	padding: 30px;
+	text-align: center;
+	color: whitesmoke;
+	transform: scale(1, -1);
+	margin-bottom: 30px;
+}
+.block-3 {
+	background-color:cadetblue;
+	padding: 30px;
+   text-align: center;
+	color: crimson;
+	transform: rotate(-5deg);
+	margin-bottom: 50px;
+}
+.block-4 {
+	background-color:royalblue;
+	padding: 30px;
+   text-align: center;
+	color: red;
+	transform: skew(40deg,0deg);
+	margin-bottom: 50px;
+}
+
+
+.square-1{
+	width: 100px;
+	height: 100px;
+	background: red;
+	display: inline-block;
+	margin-right:  20px;
+}
+.square-1:hover {
+	transform: translate(-20px,30px);
+}
+.square-2{
+	width: 100px;
+	height: 100px;
+	background-color: crimson;
+	display: inline-block;
+	margin-right: 20px;
+}
+.square-2:hover {
+	transform: scale(2);
+}
+.square-3 {
+	width: 100px;
+	height: 100px;
+	background-color: palegreen;
+	display: inline-block;
+	margin-right: 20px;
+}
+.square-3:hover {
+	transform: rotate(-45deg);
+}
+.square-4 {
+	width: 100px;
+	height: 100px;
+	background-color: brown;
+	display: inline-block;
+	margin-right: 20px;
+}
+.square-4:hover {
+	transform: skew(30deg,0deg);
+}
+.square-4{
+	width: 100px;
+	height: 100px;
+	background-color: darkslateblue;
+	display: inline-block;
+	margin-right: 20px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.square-4:hover {
+	transform: matrix(1, 0, 0, 2, 50, 0);
+}
+.square-5 {
+	width: 100px;
+	height: 100px;
+	background-color: fuchsia;
+	display: inline-block;
+	margin-right: 40px;
+	transform: translate(50px,50px) scale(0.5) rotate(45deg); 
+}
+.square-6__transform-origin {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	display: inline-block;
+	margin-right: 20px;
+	transform-origin: 20px 15px;
+	transform:  rotate(0deg); 
+}
+.square-6__transform-origin:hover {
+	transform: rotate(-30deg);
+}
+.square-2d {
+	margin-bottom: 20px;
+}
+.gallery {
+	text-align: center; 
+	perspective: 750px;
+	margin-bottom: 30px;
+}
+img {
+	max-width: 100%;
+} 
+.picture {
+	transform: rotateY(-30deg); 
+   transform-origin: right center;
+}
+.section {
+	margin-bottom: 50px;
+	perspective: 500px;
+	
+}
+.translate-section {
+	width: 150px;
+	height: 150px;
+	background-color: tomato;
+	display: inline-block;
+	margin-right: 40px;
+	transform: translate3d(0px, 0px, 0px);
+	
+}
+.translate-section:hover {
+	transform: translate3d(25px, -50px, 110px);
+}
+.rotade-section {
+	width: 150px;
+	height: 150px;
+	background-color: olive;
+	display: inline-block;
+	margin-bottom: 40px;
+	transform: rotate3d(1, 1,  1, 0deg);
+}
+.rotade-section:hover {
+	transform: rotate3d(1, 1,  1, 65deg);
+}
+.flip {
+	perspective: 800px; 
+}
+.card {
+	position: relative;
+	width: 250px; 
+	height: 273px; 
+	transition: transform 1s;
+	transform-style: preserve-3d;
+	margin-bottom: 50px;
+}
+.card:hover {
+	transform: rotateY(180deg); 
+}
+.card-face {
+	position: absolute; 
+	top: 0; bottom: 0; 
+	backface-visibility: hidden; 
+}
+.card-face.back {
+	width: 250px; 
+	height: 273px; 
+	transform: rotateY(180deg); 
+	background: #4B846A; 
+	color: #fff; 
+	text-align: center;
+}
+
+/*car*/
+
+.car__name1 {
+	width: 820px;
+	height: 335px;
+	border-radius: 50px 60px -1px 3px;
+	background-color: plum;
+	margin-left: 200px;
+	border: 7px solid rosybrown;
+	
+}
+.car__name2 {
+	width: 240px;
+	height: 190px;
+	position: relative;
+	left: -34px;
+	bottom: 190px;
+	background-color: yellowgreen;
+	border: 7px solid rosybrown;
+	border-radius: 50px 5px -1px 2px;
+	
+}
+.car__name3 {
+	width: 150px;
+	height: 300px;
+	position: relative;
+	background-color: navy;
+	bottom: 490px;
+	left: 260px;
+	border: 7px solid rosybrown;
+}
+.car__name4 {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	background-color: navy;
+	bottom: 790px;
+	left: 450px;
+	border-radius: 30px 5px 5px 5px;
+	border: 7px solid rosybrown;
+	}
+
+.car__name5{
+width: 150px;
+	height: 150px;
+	position: relative;
+	background-color: navy;
+	bottom: 940px;
+	left: 650px;
+	border-radius: 5px 5px 5px 5px;
+	border:  7px solid rosybrown;
+}	
+.car__name6 {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	background-color: navy;
+	bottom: 1090px;
+	left: 850px;
+	border-radius: 5px 30px 5px 5px;
+	border: 7px solid rosybrown;
+}
+.car__name7{
+	width: 3px;
+	height: 300px;
+	position: relative;
+	background-color: orangered;
+	top: -1240px;
+	left: 330px;
+}
+.car__name8 {
+	width: 180px;
+	height: 180px;
+	position: relative;
+	background-color: chartreuse;
+	border: 15px dotted teal;
+	top: -1310px;
+	border-radius: 50%;
+	left: 30px;
+}
+
+.car__name:hover{
+   transform: rotate(360deg);
+	transition: 3s all ease;
+}
+.car__name9 {
+	width: 180px;
+	height: 180px;
+	position: relative;
+	background-color: chartreuse;
+	border: 15px dotted teal;
+	top: -1490px;
+	border-radius: 50%;
+   left: 830px;
+}
+.car__name9:hover{
+   transform: rotate(360deg);
+	transition: 3s all ease;
+}
+
+
